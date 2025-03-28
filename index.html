@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Responsive Web Page</title>
+    <link
+      rel="shortcut icon"
+      href="./Resources/customer-service.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo">
+          TechSolutions
+          <img
+            src="./Resources/customer-service.png"
+            height="50px"
+            width="auto"
+            alt="Logo"
+          />
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="home" class="hero">
+      <article>
+        <h1>Welcome to Our Website</h1>
+        <p>Providing quality services to help grow your business.</p>
+        <a href="#contact" class="btn">Get Started</a>
+      </article>
+    </section>
+
+    <section id="services" class="services">
+      <h2>My Services</h2>
+      <div class="service-items">
+        <div class="service">
+          <article>
+            <h3>Web Development</h3>
+            <p>
+              We build responsive and modern websites. Our websites are visually
+              appealing, fast, and optimized for all devices.
+            </p>
+          </article>
+        </div>
+        <div class="service">
+          <article>
+            <h3>SEO Optimization</h3>
+            <p>Enhance your website’s visibility on search engines.</p>
+          </article>
+        </div>
+        <div class="service">
+          <article>
+            <h3>Marketing Strategies</h3>
+            <p>Increase your brand awareness with our strategies.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="testimonials">
+      <h2>What Our Clients Say</h2>
+      <p>"Excellent services that exceeded our expectations!"</p>
+      <p>Waqar Ahmed</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="wrapper">
+        <form
+          action="./thankyou.html
+        "
+        >
+          <h2>Contact Us</h2>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Name"
+            required
+          />
+
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Message"
+            required
+          ></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Services</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+
+        <div class="socialmedia">
+          <a href="#" title="instagram"
+            ><img src="./Resources/instagram.png" alt="Instagram"
+          /></a>
+          <a href="#" title="Facebook"
+            ><img src="./Resources/facebook.png" alt="Facebook"
+          /></a>
+          <a href="#" title="Linkedin"
+            ><img src="./Resources/linkedin.png" alt="Linkedin"
+          /></a>
+        </div>
+
+        <div class="copyright">
+          <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
