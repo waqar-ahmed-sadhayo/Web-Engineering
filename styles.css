@@ -37,6 +37,11 @@ nav {
   text-decoration: none;
 }
 
+.nav-links li a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
 .hero {
   background: #f2f2f2;
   color: black;
